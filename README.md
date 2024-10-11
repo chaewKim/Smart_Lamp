@@ -33,6 +33,6 @@
   ![image](https://github.com/user-attachments/assets/0c4dca0d-2415-442b-a3b0-6a33649f1353)
 
 # 프로젝트 보고서 
-[보고서 PDF 다운로드](./Samrt%20Lamp%20최종보고서.pdf) <br>
+[보고서 PDF 다운로드](./Smart%20Lamp%20최종보고서.pdf) <br>
 [논문 PDF 다운로드](./졸업논문.pdf)
 
