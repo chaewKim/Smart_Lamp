@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>넘어짐 감지 시스템</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <script language="javascript">
+         function anal()
+        {
+         var oShell = new ActiveXObject("WScript.Shell");
+         oShell.Run( "cmd /K " );
+         oShell.Run("cd C:\Users\user\PycharmProjects\HumanFallDetection");
+         oShell.Run("conda activate HumanFallDetection ");
+         oShell.Run("python fall_detector.py) ");
+
+
+        }
+        </script>
+    </head>
+    <body onload="anal()">
+
+       <center> <h1>넘어짐 감지 시스템 </h1>
+
+         <br>
+           <h2>실시간 분석을 시작합니다 </h2>
+
+           <form action="127.0.0.1:5000/getFromHtml" method="GET">
+
+           </form>
+
+
+
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+        <!--<img src="{{ url_for('video_feed') }}">-->
+
+     </center>
+    </body>
+</html>
