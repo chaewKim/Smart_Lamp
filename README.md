@@ -1,6 +1,6 @@
 ## 졸업작품
 1. 프로젝트명 : 스마트 램프
-2. 목적 : 본 프로젝트에서는 스마트 가로등을 이용하여 어두운 골목길에서 마음놓고 다닐 수 있는 안전한 환경을 조성하는 것을 목표로 한다.
+2. 개요 : Flask, OpenCV, PyThorc 그리고 HumanFallDetection APi를 활용하여 넘어짐을 감지하고 사용자에게 이를 알리는 웹서비스를 만들어 넘어짐 사고를 보다 빠르게 감지하여 안전을 보장하기 위해 설계되었다.
 3. 개발환경
 - 운영체제 : Windows 10
 - 개발 언어 : Python, C, HTML& javascript
@@ -13,14 +13,24 @@
 
  ![image](https://github.com/user-attachments/assets/733fa327-890a-4db4-8ec3-804bcde1bbf2)
 
-6. 범죄 상황 인지 플로우 차트
+5. 주요 기능
+-실시간 넘어짐 감지
+  -OpenCV로 카메라 영상 스트리밍 처리
+  -PyTorch 모델을 활용한 넘어짐 감지
+-알림 시스템
+  -넘어짐 감지되면 화면에서 경고 발생
+-웹 인터페이스
+  -Flask를 통한 사용자 친화적인 대시보드 제공
+  -감지 결과 실시간 확인 가능 
+
+7. 범죄 상황 인지 플로우 차트
 
    -사람이 쓰러진 경우
    
    ![image](https://github.com/user-attachments/assets/d9a2a83a-7bcf-406d-9392-bb35d3e9e37e)
 
 
-7. 결과
+8. 결과
 
    -범죄상황이 아닌 경우(쓰러지지 않은 경우)
    
